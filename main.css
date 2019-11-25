@@ -17,7 +17,7 @@ body {
     background-color: var(--light-background);
 }
 
-* {
+span {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: var(--dark-text);
@@ -129,6 +129,11 @@ h1 {
     top: -19px;
     margin: 0 !important;
     white-space: nowrap;
+}
+
+h1 img {
+    vertical-align: middle;
+    height: 0.75em;
 }
 
 .centered, .above-center {
